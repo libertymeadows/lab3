@@ -27,6 +27,12 @@ public class AddessBook {
 	
 	public static void main(String[] args) {
 		System.out.println("Address Book");
-			
+		
+		AddessBook adb = new AddessBook();
+		
+		BuddyInfo bud2 = new BuddyInfo("dude");
+		adb.addBuddy(bud2);
+		adb.removeBuddy(1);
+		
 	}
 }
